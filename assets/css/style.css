@@ -2,15 +2,11 @@
     box-sizing: border-box;
 }
 
-.nameText {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 24px
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .navMenu {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-}
-.freeButton {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
