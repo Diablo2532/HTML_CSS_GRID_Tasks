@@ -6,8 +6,8 @@
   font-size: 24px;
   font-family: "Josefin Sans", sans-serif;
 }
-.fontNav {
-  font-size: 16px;
+.fontInter {
+  
   font-family: "Inter", sans-serif;
 }
 .header {
@@ -24,10 +24,12 @@
   display: flex;
   justify-content: center;
   gap: 60px;
+  font-size: 16px;
 }
 .navMenu a {
   color: #35414b;
   text-decoration: none;
+  
 }
 
 .startButton a {
@@ -43,4 +45,31 @@
 
 .buttonGetStart:hover {
   border: 1px solid blue;
+}
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.centerText {   
+    text-align: center;
+}
+.paddingText {
+    padding: 20px;
+}
+.heroSection h1 {
+    font-size: 64px;
+    max-width: 760px;
+
+
+}
+.heroSection p {
+    font-size: 16px;
+    max-width: 500px;
+    
+}
+.mailInput {
+    padding: 20px;
 }
