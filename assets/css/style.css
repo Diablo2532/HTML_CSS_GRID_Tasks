@@ -1,12 +1,46 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.fontLogo {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.fontNav {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  max-width: 1200px;
+
+  margin: auto;
+  padding: 50px 20px;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 .navMenu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.navMenu a {
+  color: #35414b;
+  text-decoration: none;
+}
+
+.startButton a {
+  padding: 20px;
+}
+.buttonGetStart {
+  border: 1px solid #ece5ff;
+  background-color: #ece5ff;
+  border-radius: 5px;
+  color: #794cff;
+  text-decoration: none;
+}
+
+.buttonGetStart:hover {
+  border: 1px solid blue;
 }
