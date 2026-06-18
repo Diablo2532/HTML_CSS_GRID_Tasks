@@ -432,7 +432,6 @@ footer {
   justify-content: center;
   align-items: start;
   gap: 80px;
-  min-width: 600px;
   margin: 50px 0 0;
   padding: 60px 20px;
 
@@ -473,4 +472,131 @@ footer p {
   width: 162px;
   height: auto;
   margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  .navMenu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .startButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .heroSection h1 {
+    font-size: 40px;
+  }
+
+  .heroSection p {
+    max-width: 90%;
+  }
+
+  .textDiscont {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .save {
+    margin-right: 0;
+  }
+
+  .getAccount {
+    width: auto;
+    border-radius: 100px;
+  }
+
+  .mailInput {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .inputMail {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+  }
+
+  .tryIt {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+    height: 53px;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    width: auto;
+    padding-top: 0;
+    border-top: none;
+    gap: 20px;
+  }
+
+  .sidebar img {
+    margin-top: 0;
+  }
+
+  .sidebar > a {
+    margin: 0;
+  }
+
+  .status {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "b1"
+      "b2"
+      "b3"
+      "b4"
+      "b5";
+  }
+
+  .card h3 {
+    font-size: 32px;
+  }
+
+  .card h4 {
+    font-size: 22px;
+  }
+
+  .hoursChart {
+    gap: 10px;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 40px;
+    min-width: 0;
+  }
+
+  .commpanyText,
+  .supportText,
+  .legalText,
+  .appInstall {
+    align-items: center;
+  }
 }
